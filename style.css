@@ -80,13 +80,13 @@
     background-color: gray;
 }
 
-#computer .destroyer,
+/* #computer .destroyer,
 #computer .submarine,
 #computer .battleship,
 #computer .carrier,
 #computer .cruiser{
     background-color: yellow;
-}
+} */
 
 .boom{
     background-color: red !important;

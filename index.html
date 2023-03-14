@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>battleship</title>
     <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div class="container">
+    <div class="content">
+        <div class="header">
+            <a href="https://github.com/DYuHLin/battleship"><i class='bx bxl-github'></i></a>
+        </div>
         <div class="title">Battleship</div>
         <div class="game-info">
-            <p><span id="turn-display"></span></p>
+            <p><span id="turn-display">Place your pieces</span></p>
             <p><span id="info"></span></p>
         </div>
 
@@ -31,11 +35,8 @@
             <button id="flip-button">Flip</button>
             <button id="start-button">Start</button>
         </div>
-
-        <div class="footer">
-            Damian
-        </div>
     </div>
+        
 
     <script src="main.js"></script>
 </body>
